@@ -3,7 +3,7 @@ const DestinationCard = ({ destination }) => {
 
   return (
     <div className="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
-      <div className="w-20 h-20 mx-auto mt-4">
+      <div className="w-6 h-6 mx-auto mt-4">
         <img 
           src={image} 
           alt={name}
