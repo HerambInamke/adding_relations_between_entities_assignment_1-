@@ -1,9 +1,11 @@
+import DestinationContainer from './components/DestinationContainer';
+
 function App() {
   return (
-    <div>
-      {/* Your code here */}
+    <div className="min-h-screen bg-gray-100">
+      <DestinationContainer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
